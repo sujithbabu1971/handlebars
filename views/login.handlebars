@@ -1,0 +1,29 @@
+<html>
+	<!-- For handlebars, this file should be present in partials folder. 
+	The file name would be bootstrap_contents.handlebars. Do not
+	specify any folder name , path and extension. The f -->
+	{{>bootstrap_contents}}
+	<body>
+		
+		<form method="get" action="/toLandingPage">
+			<div  class="container"> 
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-center">LOGIN PAGE</p>					
+					</div>				
+				</div>
+		
+				<div class="row">
+
+					<div class="col-sm-6">
+						<input type="text" class="form-control" name="userName" placeHolder="Enter your name"></input>
+					</div>
+					<div class="col-sm-6">
+						<button type="submit" class="btn btn-default" name="signIn" value="Sign-in">Sign-in</button>
+					</div>
+				</div>
+				
+			</div>	
+	</body>
+
+</html>

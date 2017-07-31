@@ -1,0 +1,48 @@
+<html>
+	{{>bootstrap_contents}}
+	<body>
+		
+		<div  class="container"> 
+			<div class="row">
+				<div class="col-sm-4">
+					<h1>
+						Hello  {{person}}
+					</h1>
+				</div>
+				<div class="col-sm-4">
+					<h1>
+						City selected for you is {{cityName}}
+					</h1>
+				</div>
+				<div class="col-sm-4">
+					<h1>
+						{{headLine}}
+					</h1>
+				</div>
+			</div>
+			
+		</div>	
+		
+		<div class="row">
+			<div class="col-sm-12">
+				<p class="text-center"><img src="/{{cityName}}.jpg"></p>					
+			</div>				
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-12">
+					<br></br>
+			</div>
+				
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12">
+				<p class="text-center"><a href="/">SIGN-IN AGAIN </a></p>
+					
+			</div>
+				
+		</div>
+	</body>
+
+</html>

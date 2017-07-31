@@ -1,0 +1,26 @@
+<html>
+	{{>bootstrap_contents}}
+	<body>
+		
+		<form method="post" action="/toCityPage">
+			<div  class="container"> 
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-center">Hello {{userName}}</p>					
+					</div>				
+				</div>
+		
+				<div class="row">
+
+					<div class="col-sm-6">
+						<input type="text" name="interest" placeHolder="Enter your interest"></input>
+					</div>
+					<div class="col-sm-6">
+						<button type="submit" name="city" value="city">Get Your City</button>
+					</div>
+				</div>
+				
+			</div>	
+	</body>
+
+</html>
